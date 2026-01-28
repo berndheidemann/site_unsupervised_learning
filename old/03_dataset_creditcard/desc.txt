@@ -1,0 +1,33 @@
+Balance (Saldo): Der aktuelle Betrag, der auf dem Konto oder der Kreditkarte aussteht.
+
+Balance Frequency (Häufigkeit des Saldos): Wie oft der Saldo aktualisiert oder überprüft wird.
+
+Purchases (Käufe): Gesamtbetrag der mit der Karte getätigten Käufe.
+
+One-off Purchases (Einmalige Käufe): Betrag für Käufe, die in einer einzigen Transaktion getätigt wurden.
+
+Installment Purchases (Ratenkäufe): Käufe, die in Raten bezahlt werden.
+
+Cash Advance (Bargeldvorschuss): Betrag, der als Bargeldvorschuss von der Kreditkarte abgehoben wurde.
+
+Purchases Frequency (Kaufhäufigkeit): Wie häufig Käufe mit der Karte getätigt werden.
+
+One-off Purchases Frequency (Häufigkeit einmaliger Käufe): Wie oft einmalige Käufe getätigt werden.
+
+Purchases Installments Frequency (Häufigkeit von Ratenkäufen): Wie oft Käufe in Raten getätigt werden.
+
+Cash Advance Frequency (Häufigkeit von Bargeldvorschüssen): Wie oft Bargeldvorschüsse in Anspruch genommen werden.
+
+Cash Advance TRX (Bargeldvorschuss-Transaktionen): Anzahl der Transaktionen für Bargeldvorschüsse.
+
+Purchases TRX (Kauftransaktionen): Anzahl der Kauftransaktionen.
+
+Credit Limit (Kreditlimit): Der maximale Betrag, der über die Kreditkarte ausgegeben werden kann.
+
+Payments (Zahlungen): Gesamtbetrag der geleisteten Zahlungen auf das Konto oder die Kreditkarte.
+
+Minimum Payments (Mindestzahlungen): Der Mindestbetrag, der monatlich zur Rückzahlung des Saldos zu leisten ist.
+
+PRC Full payment (Prozentsatz der Vollzahlung): Der Prozentsatz des Saldos, der vollständig zurückgezahlt wurde.
+
+Tenure (Laufzeit): Die Dauer, über die das Konto oder die Kreditkarte aktiv ist.

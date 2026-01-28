@@ -1,0 +1,104 @@
+site_name: "Unsupervised Learning"
+site_url: https://berndheidemann.github.io/site_unsupervised_learning
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    # Navigation und Layout
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs
+    # Suche & UX
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.progress
+  language: de
+  palette:
+    # Light Mode
+    - scheme: default
+      primary: teal
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Zu Dark Mode wechseln
+    # Dark Mode
+    - scheme: slate
+      primary: teal
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Zu Light Mode wechseln
+
+nav:
+  - Start: index.md
+  - Arbeitsblätter:
+      - Phase 1 - Einführung:
+          - UL-01 Einführung: arbeitsblaetter/ul-01-einfuehrung.md
+          - UL-02 Vorverarbeitung: arbeitsblaetter/ul-02-vorverarbeitung.md
+          - UL-03 K-Means: arbeitsblaetter/ul-03-kmeans.md
+          - UL-04 PCA: arbeitsblaetter/ul-04-pca.md
+          - UL-05 Interpretation: arbeitsblaetter/ul-05-interpretation.md
+          - UL-06 Hierarchisch: arbeitsblaetter/ul-06-hierarchisch.md
+      - Phase 2 - Anwendung:
+          - UL-07 Kundensegmentierung: arbeitsblaetter/ul-07-kundensegmentierung.md
+      - Phase 3 - Vertiefung:
+          - UL-08 Weinqualität: arbeitsblaetter/ul-08-weinqualitaet.md
+      - Phase 4 - Projekt:
+          - UL-09 Musik-Clustering: arbeitsblaetter/ul-09-musik-clustering.md
+          - UL-10 Abschlussprojekt: arbeitsblaetter/ul-10-abschlussprojekt.md
+      - Optional:
+          - UL-OPT-01 Kreditkarten: arbeitsblaetter/ul-opt-01-kreditkarten.md
+          - UL-OPT-02 Big Data: arbeitsblaetter/ul-opt-02-big-data.md
+  - Infoblätter:
+      - I-01 Einführung UL: infoblaetter/einfuehrung-unsupervised.md
+      - I-02 Vorverarbeitung: infoblaetter/datenvorverarbeitung.md
+      - I-03 K-Means: infoblaetter/kmeans-clustering.md
+      - I-04 Hierarchisch: infoblaetter/hierarchisches-clustering.md
+      - I-05 PCA: infoblaetter/pca-dimensionsreduktion.md
+      - I-06 Weitere Algorithmen: infoblaetter/weitere-algorithmen.md
+      - I-07 Evaluation: infoblaetter/cluster-evaluation.md
+      - I-08 Große Datenmengen: infoblaetter/grosse-datenmengen.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+
+extra:
+  generator: false
+
+extra_css:
+  - assets/css/pdf-viewer.css
+
+extra_javascript:
+  - assets/js/progress.js
+  
+plugins:
+  - search
+  - awesome-pages                     # Automatische Navigation nach Ordnerstruktur
+  - minify:
+      minify_html: true               # Schnellere Ladezeiten durch kleinere Seiten
+  - kroki                             # PlantUML und andere Diagramme via kroki.io

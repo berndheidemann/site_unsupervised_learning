@@ -1,0 +1,7 @@
+bisher bin ich so vorgegangen:
+
+Ich habe den Schülern am Beispiel des country-datasets gezeigt, 
+welche UnsupervisedLearning-algorithmen es gibt und wie man die Ergebnisse interpretiert.
+Danach haben die Schüler die creditcard-Aufgabe bearbeitet und das war es dann im Grunde.
+
+Ich stelle mir vor, dass nun etwas strukturierter und umfassenender zu bearbeiten. Als Zwischen-Aufgabe die mall customer segmentation und als größere Aufgabe die us-accidents. 
