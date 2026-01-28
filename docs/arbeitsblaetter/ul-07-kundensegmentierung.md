@@ -42,6 +42,8 @@ Der **Mall Customers** Datensatz enthält Informationen über 200 Kunden:
 
 ## Aufgabe 1: Daten laden und explorieren
 
+- [ ] Erledigt
+
 ```python
 import pandas as pd
 import numpy as np
@@ -66,6 +68,8 @@ df = pd.read_csv('Mall_Customers.csv')
 
 ## Aufgabe 2: Features auswählen
 
+- [ ] Erledigt
+
 !!! warning "Wichtige Entscheidung"
     Nicht alle Features sind für Clustering geeignet!
 
@@ -89,6 +93,8 @@ print(X.describe())
 
 ## Aufgabe 3: Daten visualisieren
 
+- [ ] Erledigt
+
 Erstelle Visualisierungen, um die Datenstruktur zu verstehen:
 
 ```python
@@ -107,6 +113,8 @@ b) Wie viele Cluster vermutest du?
 
 ## Aufgabe 4: Daten skalieren
 
+- [ ] Erledigt
+
 ```python
 # Daten skalieren
 scaler = StandardScaler()
@@ -119,6 +127,8 @@ X_scaled = scaler.fit_transform(X)
 ---
 
 ## Aufgabe 5: Optimale Clusteranzahl bestimmen
+
+- [ ] Erledigt
 
 Wende die Elbow-Methode und/oder Silhouette-Analyse an:
 
@@ -138,6 +148,8 @@ Wende die Elbow-Methode und/oder Silhouette-Analyse an:
 
 ## Aufgabe 6: K-Means Clustering durchführen
 
+- [ ] Erledigt
+
 ```python
 # K-Means mit optimalem k
 
@@ -153,6 +165,8 @@ print(df['Cluster'].value_counts())
 ---
 
 ## Aufgabe 7: Cluster visualisieren
+
+- [ ] Erledigt
 
 Erstelle aussagekräftige Visualisierungen:
 
@@ -173,6 +187,8 @@ Erstelle aussagekräftige Visualisierungen:
 ---
 
 ## Aufgabe 8: Cluster interpretieren und benennen
+
+- [ ] Erledigt
 
 Analysiere die Cluster und gib ihnen aussagekräftige Namen:
 
@@ -203,6 +219,8 @@ df['Segment'] = df['Cluster'].map(cluster_names)
 ---
 
 ## Aufgabe 9: Marketing-Empfehlungen ableiten
+
+- [ ] Erledigt
 
 !!! success "Das wichtigste Ergebnis!"
     Jetzt kommt der Business Value: Was soll das Marketing-Team mit deinen Erkenntnissen tun?

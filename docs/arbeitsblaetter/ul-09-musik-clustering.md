@@ -40,6 +40,8 @@ Der **Spotify Tracks** Datensatz enthält Audio-Features von Songs:
 
 ## Aufgabe 1: Daten laden und Überblick verschaffen
 
+- [ ] Erledigt
+
 ```python
 import pandas as pd
 import numpy as np
@@ -73,6 +75,8 @@ c) Gibt es fehlende Werte? Prüfe mit `df.isnull().sum()`
 
 ## Aufgabe 2: Audio-Features verstehen
 
+- [ ] Erledigt
+
 Visualisiere die Verteilungen der Audio-Features:
 
 ```python
@@ -104,6 +108,8 @@ c) Gibt es Features mit vielen Nullwerten (z.B. instrumentalness)?
 
 ## Aufgabe 3: Sampling-Strategie entwickeln
 
+- [ ] Erledigt
+
 Bei ~100.000 Tracks wird Clustering langsam. Entwickle eine Sampling-Strategie:
 
 ```python
@@ -132,6 +138,8 @@ print(comparison.round(3))
 ---
 
 ## Aufgabe 4: Feature-Korrelationen analysieren
+
+- [ ] Erledigt
 
 ```python
 # Korrelationsmatrix
@@ -163,6 +171,8 @@ c) Welche Features würdest du basierend auf der Korrelationsanalyse ausschließ
 
 ## Aufgabe 5: Feature-Auswahl treffen
 
+- [ ] Erledigt
+
 Wähle die Features für dein Clustering:
 
 ```python
@@ -190,6 +200,8 @@ c) Welche Features hast du bewusst ausgeschlossen und warum?
 ---
 
 ## Aufgabe 6: Erste Clustering-Versuche
+
+- [ ] Erledigt
 
 ```python
 from sklearn.preprocessing import StandardScaler
@@ -274,6 +286,8 @@ c) Gibt es Ausreißer, die zu keinem Cluster zu gehören scheinen?
 
 ## Aufgabe 8: Cluster interpretieren
 
+- [ ] Erledigt
+
 Was charakterisiert die verschiedenen Cluster?
 
 ```python
@@ -316,6 +330,8 @@ d) Gib jedem Cluster einen aussagekräftigen Namen:
 
 ## Aufgabe 9: Fragestellung für Abschlussprojekt formulieren
 
+- [ ] Erledigt
+
 !!! question "Mögliche Fragestellungen"
     
     Wähle eine Fragestellung für dein Abschlussprojekt:
@@ -339,6 +355,8 @@ d) Gib jedem Cluster einen aussagekräftigen Namen:
 ---
 
 ## Aufgabe 10: Nächste Schritte planen
+
+- [ ] Erledigt
 
 Plane dein Abschlussprojekt:
 

@@ -19,6 +19,8 @@ Nach Bearbeitung dieses Arbeitsblatts kannst du:
 
 ## Aufgabe 1: Daten vorbereiten und clustern
 
+- [ ] Erledigt
+
 Zuerst führen wir das Clustering durch (Wiederholung):
 
 ```python
@@ -55,6 +57,8 @@ b) Was würde passieren, wenn ein Cluster nur 2-3 Länder enthält? Wäre das ei
 
 ## Aufgabe 2: Mittelwerte pro Cluster berechnen
 
+- [ ] Erledigt
+
 Das Cluster-Profil zeigt die typischen Eigenschaften jeder Gruppe:
 
 ```python
@@ -74,6 +78,8 @@ c) Wie unterscheidet sich die Lebenserwartung (`life_expec`) zwischen den Cluste
 ---
 
 ## Aufgabe 3: Cluster-Profile als Balkendiagramm
+
+- [ ] Erledigt
 
 Visualisiere die Unterschiede zwischen den Clustern:
 
@@ -118,6 +124,8 @@ plt.show()
 
 ## Aufgabe 4: Heatmap der Cluster-Profile
 
+- [ ] Erledigt
+
 Eine Heatmap zeigt auf einen Blick, welche Features pro Cluster hoch oder niedrig sind:
 
 ```python
@@ -152,6 +160,8 @@ c) Gibt es ein Cluster mit gemischten Werten (teils grün, teils rot)? Was könn
 
 ## Aufgabe 5: Länder den Clustern zuordnen
 
+- [ ] Erledigt
+
 Welche Länder sind in welchem Cluster?
 
 ```python
@@ -173,6 +183,8 @@ b) Gibt es Überraschungen? Länder, die du in einem anderen Cluster erwartet h�
 ---
 
 ## Aufgabe 6: Cluster benennen
+
+- [ ] Erledigt
 
 !!! success "Wichtig für die Praxis"
     Cluster-Nummern (0, 1, 2) sind bedeutungslos! Gib den Clustern aussagekräftige Namen.
@@ -201,6 +213,8 @@ print(df[['country', 'Cluster', 'Cluster_Name']].head(20))
 
 ## Aufgabe 7: Ergebnisse zusammenfassen
 
+- [ ] Erledigt
+
 Erstelle eine Zusammenfassung für einen Nicht-Techniker:
 
 ```python
@@ -225,6 +239,8 @@ for cluster_id in sorted(df['Cluster'].unique()):
 ---
 
 ## Aufgabe 8: Reflexion
+
+- [ ] Erledigt
 
 !!! question "Reflexionsfragen"
     

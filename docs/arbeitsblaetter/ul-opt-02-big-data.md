@@ -60,6 +60,8 @@ Der **US-Accidents** Datensatz enthält Verkehrsunfälle in den USA von 2016-202
 
 ## Aufgabe 1: Datensatz-Größe verstehen
 
+- [ ] Erledigt
+
 Bevor du lädst, prüfe die Größe:
 
 ```python
@@ -88,6 +90,8 @@ b) Wie viel RAM würde sie benötigen (Faustregel: 2-3x Dateigröße)?
 
 ## Aufgabe 2: Chunked Loading
 
+- [ ] Erledigt
+
 Lade die Daten in Teilen:
 
 ```python
@@ -113,6 +117,8 @@ print(f"Speicher: {df_sample.memory_usage().sum() / 1e6:.1f} MB")
 ---
 
 ## Aufgabe 3: Sampling-Strategien vergleichen
+
+- [ ] Erledigt
 
 Vergleiche verschiedene Sampling-Methoden:
 
@@ -143,6 +149,8 @@ print(f"Stratifiziertes Sample: {len(sample_stratified):,} Zeilen")
 
 ## Aufgabe 4: Sample-Repräsentativität prüfen
 
+- [ ] Erledigt
+
 Ist das Sample repräsentativ?
 
 ```python
@@ -159,6 +167,8 @@ compare_distributions(sample_stratified, 'State')
 ---
 
 ## Aufgabe 5: Feature Engineering
+
+- [ ] Erledigt
 
 Extrahiere nützliche Features aus dem Zeitstempel:
 
@@ -196,6 +206,8 @@ plt.show()
 
 ## Aufgabe 6: Features für Clustering auswählen
 
+- [ ] Erledigt
+
 ```python
 # Numerische Features für Clustering
 clustering_features = ['Hour', 'DayOfWeek', 'Temperature(F)', 'Humidity(%)', 'Visibility(mi)']
@@ -213,6 +225,8 @@ X_scaled = scaler.fit_transform(X)
 ---
 
 ## Aufgabe 7: Mini-Batch K-Means
+
+- [ ] Erledigt
 
 Mini-Batch K-Means ist optimiert für große Datenmengen:
 
@@ -250,6 +264,8 @@ for k in [4, 6, 8]:
 
 ## Aufgabe 8: Partial Fit für sehr große Daten
 
+- [ ] Erledigt
+
 Bei Daten, die nicht in den Speicher passen:
 
 ```python
@@ -286,6 +302,8 @@ print(f"Cluster-Zentren Shape: {mbk.cluster_centers_.shape}")
 
 ## Aufgabe 9: Ergebnisse interpretieren
 
+- [ ] Erledigt
+
 Analysiere die gefundenen Cluster:
 
 ```python
@@ -315,6 +333,8 @@ plt.show()
 
 ## Aufgabe 10: Speicheroptimierung
 
+- [ ] Erledigt
+
 ```python
 def optimize_dtypes(df):
     """Reduziere Speicherverbrauch durch optimierte Datentypen."""
@@ -339,6 +359,8 @@ sample_optimized = optimize_dtypes(sample_stratified.copy())
 ---
 
 ## Aufgabe 11: Reflexion
+
+- [ ] Erledigt
 
 !!! question "Reflexionsfragen"
     

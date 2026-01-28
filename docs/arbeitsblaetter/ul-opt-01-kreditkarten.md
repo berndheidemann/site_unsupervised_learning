@@ -65,6 +65,8 @@ Der **CustomerData** Datensatz enthält Kreditkartenverhalten von ~900 Kunden:
 
 ## Aufgabe 1: Daten laden und explorieren
 
+- [ ] Erledigt
+
 ```python
 import pandas as pd
 import numpy as np
@@ -93,6 +95,8 @@ b) Welche Features haben besonders hohe Varianz?
 ---
 
 ## Aufgabe 2: Feature-Korrelationen analysieren
+
+- [ ] Erledigt
 
 Bei 17 Features sind Korrelationen wahrscheinlich:
 
@@ -126,6 +130,8 @@ for f1, f2, r in sorted(high_corr, key=lambda x: abs(x[2]), reverse=True):
 ---
 
 ## Aufgabe 3: Dimensionsreduktion vor dem Clustering
+
+- [ ] Erledigt
 
 Bei vielen Features ist PCA sinnvoll:
 
@@ -170,6 +176,8 @@ print(f"\n{n_components} Komponenten erklären 90% der Varianz")
 
 ## Aufgabe 4: DBSCAN anwenden
 
+- [ ] Erledigt
+
 DBSCAN kann Ausreißer (potenzielle Risikokunden) identifizieren:
 
 ```python
@@ -212,6 +220,8 @@ print(f"Ausreißer: {n_outliers} ({n_outliers/len(labels_db)*100:.1f}%)")
 
 ## Aufgabe 5: Ausreißer analysieren
 
+- [ ] Erledigt
+
 Sind die Ausreißer wirklich "Risikokunden"?
 
 ```python
@@ -237,6 +247,8 @@ b) Sind das wirklich Risikokunden?
 ---
 
 ## Aufgabe 6: Gaussian Mixture Models
+
+- [ ] Erledigt
 
 GMM kann "weiche" Cluster finden (Wahrscheinlichkeiten statt harte Zuordnung):
 
@@ -276,6 +288,8 @@ print(pd.DataFrame(probs[:5], columns=[f'Cluster_{i}' for i in range(n_opt)]).ro
 
 ## Aufgabe 7: Algorithmen vergleichen
 
+- [ ] Erledigt
+
 ```python
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
@@ -298,6 +312,8 @@ if n_outliers < len(labels_db):
 ---
 
 ## Aufgabe 8: Kundenprofile erstellen
+
+- [ ] Erledigt
 
 Erstelle aussagekräftige Kundenprofile:
 
@@ -322,6 +338,8 @@ plt.show()
 ---
 
 ## Aufgabe 9: Cluster interpretieren und benennen
+
+- [ ] Erledigt
 
 Gib den Clustern aussagekräftige Namen:
 

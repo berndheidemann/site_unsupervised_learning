@@ -19,6 +19,8 @@ Nach Bearbeitung dieses Arbeitsblatts kannst du:
 
 ## Aufgabe 1: Theorie – Was ist Unsupervised Learning?
 
+- [ ] Erledigt
+
 Lies das [Infoblatt Einführung Unsupervised Learning](../infoblaetter/einfuehrung-unsupervised.md) und beantworte folgende Fragen:
 
 1. Was ist der Hauptunterschied zwischen Supervised und Unsupervised Learning?
@@ -28,6 +30,8 @@ Lies das [Infoblatt Einführung Unsupervised Learning](../infoblaetter/einfuehru
 ---
 
 ## Aufgabe 2: Country-Datensatz laden
+
+- [ ] Erledigt
 
 Lade den Country-Datensatz und verschaffe dir einen ersten Überblick.
 
@@ -64,6 +68,8 @@ c) Welcher Datentyp hat jede Spalte?
 
 ## Aufgabe 3: Data Dictionary verstehen
 
+- [ ] Erledigt
+
 Lies die Datei `data-dictionary.csv` oder die folgende Tabelle, um die Features zu verstehen:
 
 | Feature | Beschreibung |
@@ -85,6 +91,8 @@ Lies die Datei `data-dictionary.csv` oder die folgende Tabelle, um die Features 
 
 ## Aufgabe 4: Deskriptive Statistik
 
+- [ ] Erledigt
+
 Erstelle eine Übersicht der wichtigsten statistischen Kennzahlen.
 
 ```python
@@ -103,6 +111,8 @@ c) Für welches Feature ist der Unterschied zwischen Median und Mittelwert beson
 ---
 
 ## Aufgabe 5: Pairplot erstellen
+
+- [ ] Erledigt
 
 Ein Pairplot zeigt alle paarweisen Zusammenhänge. Da wir 9 numerische Features haben, wähle zunächst nur vier aus:
 
@@ -127,6 +137,8 @@ c) Erkennst du bereits "Gruppen" von Ländern in den Scatterplots?
 ---
 
 ## Aufgabe 6: Reflexion – Mögliche Ländergruppen
+
+- [ ] Erledigt
 
 !!! question "Reflexion"
     Basierend auf deiner bisherigen Exploration:

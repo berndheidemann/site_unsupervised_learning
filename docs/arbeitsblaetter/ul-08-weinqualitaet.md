@@ -49,6 +49,8 @@ Der **Wine Quality** Datensatz enthält chemische Analysen von portugiesischem W
 
 ## Aufgabe 1: Daten laden und vorbereiten
 
+- [ ] Erledigt
+
 ```python
 import pandas as pd
 import numpy as np
@@ -88,6 +90,8 @@ b) Prüfe mit `df.info()` und `df.describe()`: Gibt es fehlende Werte? Gibt es A
 
 ## Aufgabe 2: Feature-Korrelationen analysieren
 
+- [ ] Erledigt
+
 Bei 11 Features ist es wichtig, Redundanzen zu erkennen:
 
 ```python
@@ -124,6 +128,8 @@ b) Sollte man beide behalten oder eines entfernen? Begründe!
 
 ## Aufgabe 3: Feature-Auswahl treffen
 
+- [ ] Erledigt
+
 Entscheide, welche Features du für das Clustering verwendest:
 
 ```python
@@ -152,6 +158,8 @@ X_scaled = scaler.fit_transform(X)
 ---
 
 ## Aufgabe 4: Clustering mit K-Means
+
+- [ ] Erledigt
 
 Führe die Elbow- und Silhouette-Analyse selbstständig durch:
 
@@ -213,6 +221,8 @@ c) Welches k wählst du? Begründe!
 
 ## Aufgabe 5: Hierarchisches Clustering
 
+- [ ] Erledigt
+
 Vergleiche mit hierarchischem Clustering:
 
 ```python
@@ -250,6 +260,8 @@ c) Stimmt deine Wahl von k mit dem Dendrogramm überein?
 
 ## Aufgabe 6: Algorithmen vergleichen
 
+- [ ] Erledigt
+
 Vergleiche K-Means mit hierarchischem Clustering:
 
 ```python
@@ -285,6 +297,8 @@ b) Wie stark stimmen die Ergebnisse überein? (Nutze `adjusted_rand_score`)
 
 ## Aufgabe 7: Cluster-Profile erstellen
 
+- [ ] Erledigt
+
 Analysiere, was die Cluster charakterisiert:
 
 ```python
@@ -319,6 +333,8 @@ Welche Eigenschaften zeichnen die verschiedenen Cluster aus?
 ---
 
 ## Aufgabe 8: Cluster mit Qualität vergleichen
+
+- [ ] Erledigt
 
 Die Variable `quality` ist ein Label, das wir nicht fürs Clustering genutzt haben. Prüfe, ob es einen Zusammenhang gibt:
 

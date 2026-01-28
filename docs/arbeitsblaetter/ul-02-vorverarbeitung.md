@@ -19,6 +19,8 @@ Nach Bearbeitung dieses Arbeitsblatts kannst du:
 
 ## Aufgabe 1: Warum ist Skalierung wichtig?
 
+- [ ] Erledigt
+
 Betrachte zwei Features aus dem Country-Datensatz:
 
 ```python
@@ -43,6 +45,8 @@ c) Ist das fair, wenn beide Features gleich wichtig für die Analyse sein sollen
 ---
 
 ## Aufgabe 2: StandardScaler anwenden
+
+- [ ] Erledigt
 
 Der StandardScaler transformiert jedes Feature so, dass es Mittelwert 0 und Standardabweichung 1 hat.
 
@@ -79,6 +83,8 @@ b) Was sollten die Werte sein? Stimmt das Ergebnis?
 ---
 
 ## Aufgabe 3: Verteilungen vor/nach Skalierung vergleichen
+
+- [ ] Erledigt
 
 Visualisiere, wie sich die Skalierung auswirkt:
 
@@ -124,6 +130,8 @@ c) Was bedeutet ein Z-Score von 2? Was bedeutet -1?
 
 ## Aufgabe 4: MinMaxScaler als Alternative
 
+- [ ] Erledigt
+
 Der MinMaxScaler transformiert auf einen Bereich von 0 bis 1:
 
 ```python
@@ -160,6 +168,8 @@ print(df_minmax.max().values)
 
 ## Aufgabe 5: Korrelationsmatrix erstellen
 
+- [ ] Erledigt
+
 Korrelationen helfen, redundante Features zu identifizieren:
 
 ```python
@@ -185,6 +195,8 @@ c) Sollte man stark korrelierte Features beide behalten? Warum (nicht)?
 ---
 
 ## Aufgabe 6: Daten für Clustering vorbereiten
+
+- [ ] Erledigt
 
 Erstelle einen vorbereiteten Datensatz für die nächsten Arbeitsblätter:
 

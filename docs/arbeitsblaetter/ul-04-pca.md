@@ -19,6 +19,8 @@ Nach Bearbeitung dieses Arbeitsblatts kannst du:
 
 ## Aufgabe 1: PCA am Iris-Dataset
 
+- [ ] Erledigt
+
 Das Iris-Dataset hat 4 Features – perfekt, um PCA zu verstehen:
 
 ```python
@@ -50,6 +52,8 @@ print(f"Nach PCA Shape: {X_pca.shape}")
 
 ## Aufgabe 2: Erklärte Varianz analysieren
 
+- [ ] Erledigt
+
 Wie viel Information haben wir durch die Reduktion verloren?
 
 ```python
@@ -80,6 +84,8 @@ b) Ist das genug? (Faustregel: >70% ist akzeptabel, >85% ist gut)
 
 ## Aufgabe 3: Cluster in 2D visualisieren
 
+- [ ] Erledigt
+
 Jetzt können wir die echten Iris-Klassen in 2D sehen:
 
 ```python
@@ -107,6 +113,8 @@ b) Welche zwei Spezies überlappen am meisten?
 
 ## Aufgabe 4: K-Means auf PCA-Daten
 
+- [ ] Erledigt
+
 Vergleiche K-Means auf Original-Daten vs. PCA-reduzierte Daten:
 
 ```python
@@ -131,6 +139,8 @@ print(f"ARI (PCA):      {adjusted_rand_score(y, labels_pca):.3f}")
 ---
 
 ## Aufgabe 5: Country-Daten mit PCA visualisieren
+
+- [ ] Erledigt
 
 Jetzt wenden wir PCA auf die Country-Daten an (9 Features → 2):
 
@@ -187,6 +197,8 @@ plt.show()
 
 ## Aufgabe 6: Was bedeuten die Hauptkomponenten?
 
+- [ ] Erledigt
+
 Welche Original-Features stecken in den Hauptkomponenten?
 
 ```python
@@ -219,6 +231,8 @@ c) Was "repräsentiert" PC1 inhaltlich? (z.B. "Wohlstand" wenn income, gdpp, lif
 ---
 
 ## Aufgabe 7: Scree Plot – Wie viele Komponenten?
+
+- [ ] Erledigt
 
 Für die Country-Daten: Wie viele Komponenten brauchen wir?
 

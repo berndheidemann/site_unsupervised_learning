@@ -19,6 +19,8 @@ Nach Bearbeitung dieses Arbeitsblatts kannst du:
 
 ## Aufgabe 1: K-Means "per Hand" verstehen
 
+- [ ] Erledigt
+
 Bevor wir K-Means anwenden, verstehen wir den Algorithmus am **Iris-Dataset** – einem einfachen Datensatz mit nur 4 Features und 3 bekannten Klassen.
 
 ```python
@@ -90,6 +92,8 @@ c) Warum ist die Initialisierung (Startzentren) wichtig?
 
 ## Aufgabe 2: Elbow-Methode für Country-Daten
 
+- [ ] Erledigt
+
 !!! info "Datensatz-Wechsel"
     In Aufgabe 1 hast du den K-Means Algorithmus am Iris-Dataset verstanden. Jetzt wenden wir das Gelernte auf den **Country-Datensatz** an – denselben, den du in UL-01 und UL-02 bereits exploriert und skaliert hast.
 
@@ -138,6 +142,8 @@ c) Welches k würdest du wählen? Begründe!
 
 ## Aufgabe 3: K-Means durchführen
 
+- [ ] Erledigt
+
 Jetzt wenden wir K-Means mit der gewählten Clusteranzahl an:
 
 ```python
@@ -175,6 +181,8 @@ print(pd.DataFrame(centers_original, columns=X.columns))
 
 ## Aufgabe 4: Silhouette Score berechnen
 
+- [ ] Erledigt
+
 Der Silhouette Score misst, wie gut die Cluster getrennt sind:
 
 ```python
@@ -198,6 +206,8 @@ print(f"Silhouette Score: {score:.3f}")
 ---
 
 ## Aufgabe 5: Verschiedene k vergleichen
+
+- [ ] Erledigt
 
 Berechne den Silhouette Score für verschiedene k:
 
@@ -233,6 +243,8 @@ c) Was wählst du als finales k?
 ---
 
 ## Aufgabe 6: Reflexion – Warum funktioniert K-Means bei Iris so gut?
+
+- [ ] Erledigt
 
 Lade das Iris-Dataset und vergleiche die echten Labels mit den K-Means Clustern:
 

@@ -19,6 +19,8 @@ Nach Bearbeitung dieses Arbeitsblatts kannst du:
 
 ## Aufgabe 1: Daten vorbereiten
 
+- [ ] Erledigt
+
 ```python
 import pandas as pd
 import numpy as np
@@ -48,6 +50,8 @@ b) Warum ist Skalierung auch für hierarchisches Clustering wichtig?
 ---
 
 ## Aufgabe 2: Linkage-Matrix berechnen
+
+- [ ] Erledigt
 
 Hierarchisches Clustering baut einen Baum auf, in dem ähnliche Punkte schrittweise zusammengefügt werden:
 
@@ -82,6 +86,8 @@ c) Wie verändert sich die Distanz in Spalte 2 über die Zeilen hinweg?
 ---
 
 ## Aufgabe 3: Dendrogramm erstellen
+
+- [ ] Erledigt
 
 Das Dendrogramm visualisiert die hierarchische Struktur:
 
@@ -118,6 +124,8 @@ c) Gibt es Länder, die erst sehr spät (oben) zusammengeführt werden? Was bede
 ---
 
 ## Aufgabe 4: Schnitt auf gewünschter Höhe
+
+- [ ] Erledigt
 
 Du kannst das Dendrogramm auf verschiedenen Höhen "schneiden":
 
@@ -183,6 +191,8 @@ b) Wann würdest du welche Methode verwenden? (Tipp: `fcluster` braucht die Link
 
 ## Aufgabe 6: Vergleich K-Means vs. Hierarchisches Clustering
 
+- [ ] Erledigt
+
 Vergleiche die Ergebnisse beider Methoden:
 
 ```python
@@ -228,6 +238,8 @@ print(disagree[['country', 'KM', 'HC']])
 
 ## Aufgabe 7: Verschiedene Linkage-Methoden vergleichen
 
+- [ ] Erledigt
+
 Es gibt mehrere Methoden, die Distanz zwischen Clustern zu berechnen:
 
 ```python
@@ -272,6 +284,8 @@ c) Für welche Anwendungsfälle könnte `single` trotzdem sinnvoll sein?
 ---
 
 ## Aufgabe 8: Vor- und Nachteile diskutieren
+
+- [ ] Erledigt
 
 Fülle die Tabelle basierend auf deinen Erfahrungen:
 
