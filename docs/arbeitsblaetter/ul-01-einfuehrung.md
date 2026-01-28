@@ -37,7 +37,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Datensatz laden
+## Datensatz laden
 df = pd.read_csv('Country-data.csv')
 
 # Erste Zeilen anzeigen
