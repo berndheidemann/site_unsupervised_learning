@@ -4,6 +4,8 @@
 
 Bei Unsupervised Learning gibt es keine "richtigen" Labels. Wie bewertet man also, ob das Clustering gut ist?
 
+![Elbow-Methode und Silhouette Score](../assets/images/unsupervised/elbow_silhouette_score.png)
+
 **Zwei Ansätze:**
 1. **Interne Metriken:** Basieren nur auf den Daten
 2. **Externe Metriken:** Vergleichen mit bekannten Labels (wenn vorhanden)

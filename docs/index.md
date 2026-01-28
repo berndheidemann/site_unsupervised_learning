@@ -8,6 +8,8 @@ Diese Lernmaterialien richten sich an angehende **Fachinformatiker/innen für Da
 
 ## 🗺️ Dein Lernpfad
 
+![Clustering Workflow](assets/images/unsupervised/clustering_worklflow.png)
+
 ```mermaid
 flowchart LR
     A[Phase 1<br/>Einführung] --> B[Phase 2<br/>Anwendung]

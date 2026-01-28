@@ -14,6 +14,8 @@
 
 ## Die Grundidee
 
+![PCA Dimensionsreduktion](../assets/images/unsupervised/pca.png)
+
 PCA findet neue Achsen (Hauptkomponenten), die:
 1. **Orthogonal** zueinander stehen
 2. Die **Varianz** der Daten maximieren

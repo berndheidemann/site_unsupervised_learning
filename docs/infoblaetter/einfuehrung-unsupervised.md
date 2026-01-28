@@ -22,6 +22,8 @@ flowchart LR
 
 ## Supervised vs. Unsupervised
 
+![Supervised vs. Unsupervised Learning](../assets/images/unsupervised/supervised_vs_unsupervised.png)
+
 | Aspekt | Supervised Learning | Unsupervised Learning |
 |--------|--------------------|-----------------------|
 | **Labels** | Ja, Daten sind gelabelt | Nein, keine Labels |

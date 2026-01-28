@@ -14,6 +14,8 @@ Clustering-Algorithmen berechnen **Abstände** zwischen Datenpunkten. Ohne Vorve
 
 ### Das Problem ohne Skalierung
 
+![Feature Skalierung - Vorher/Nachher](../assets/images/unsupervised/feature_scaling.png)
+
 ```python
 # Beispiel: Gehalt (€) vs. Alter (Jahre)
 gehalt = [50000, 75000, 40000]  # Werte: 40.000 - 75.000

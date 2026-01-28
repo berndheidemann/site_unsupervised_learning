@@ -4,6 +4,8 @@
 
 Hierarchisches Clustering baut eine **Baumstruktur** (Dendrogramm) auf, die zeigt, wie Datenpunkte schrittweise zu Clustern zusammengefasst werden.
 
+![Dendrogramm lesen](../assets/images/unsupervised/dendogramm.png)
+
 **Vorteil gegenüber K-Means:** Du musst die Clusteranzahl **nicht vorher** festlegen!
 
 ---

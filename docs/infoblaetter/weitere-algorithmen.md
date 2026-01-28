@@ -2,6 +2,8 @@
 
 ## Überblick
 
+![Algorithmen-Entscheidungsbaum](../assets/images/unsupervised/algorithmen-entscheidungsbaum.png)
+
 Neben K-Means und hierarchischem Clustering gibt es weitere Algorithmen mit unterschiedlichen Stärken.
 
 | Algorithmus | Typ | Hauptvorteil |

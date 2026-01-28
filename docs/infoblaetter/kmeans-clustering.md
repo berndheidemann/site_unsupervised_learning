@@ -24,6 +24,9 @@ flowchart TD
 3. **Update:** Berechne neue Zentroids als Mittelwert der zugewiesenen Punkte
 4. **Wiederhole** Schritte 2-3 bis Konvergenz
 
+!!! tip "Interaktive Visualisierung"
+    Probiere den Algorithmus interaktiv aus: [K-Means Visualisierung von Naftali Harris](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/){ target="_blank" }
+
 ---
 
 ## Code-Beispiel

@@ -73,11 +73,16 @@ plt.tight_layout()
 plt.show()
 ```
 
+!!! tip "Interaktive Visualisierung"
+    Probiere den Algorithmus interaktiv aus und beobachte, wie die Zentren wandern: [K-Means Visualisierung von Naftali Harris](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/){ target="_blank" }
+
 **Fragen:**
 
 a) Was passiert, wenn wir Schritt 2 und 3 wiederholen?
 
 b) Wann stoppt der Algorithmus?
+
+c) Experimentiere mit der interaktiven Visualisierung: Was passiert bei unterschiedlichen Startpositionen der Zentren?
 
 c) Warum ist die Initialisierung (Startzentren) wichtig?
 
