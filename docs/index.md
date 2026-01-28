@@ -6,9 +6,17 @@ Diese Lernmaterialien richten sich an angehende **Fachinformatiker/innen für Da
 
 ---
 
-## 🗺️ Dein Lernpfad
+## � Der Clustering-Workflow
+
+Jedes Clustering-Projekt folgt diesem Ablauf – von den Rohdaten bis zur geschäftlichen Interpretation:
 
 ![Clustering Workflow](assets/images/unsupervised/clustering_worklflow.png)
+
+Die Arbeitsblätter führen dich Schritt für Schritt durch diesen Prozess.
+
+---
+
+## 🗺️ Dein Lernpfad
 
 ```mermaid
 flowchart LR
@@ -109,18 +117,6 @@ Nach Bearbeitung der Materialien kannst du:
 
 !!! info "Iris-Dataset"
     Das Iris-Dataset ist in scikit-learn integriert und wird mit `load_iris()` geladen.
-
----
-
-## ⏱️ Zeitplanung
-
-| Phase | Arbeitsblätter | Zeitaufwand |
-|-------|---------------|-------------|
-| **Phase 1: Einführung** | UL-01 bis UL-06 | 6-8 Stunden |
-| **Phase 2: Anwendung** | UL-07 | 2-3 Stunden |
-| **Phase 3: Vertiefung** | UL-08 | 2-3 Stunden |
-| **Phase 4: Projekt** | UL-09, UL-10 | 4-6 Stunden |
-| **Gesamt** | | **14-20 Stunden** |
 
 ---
 

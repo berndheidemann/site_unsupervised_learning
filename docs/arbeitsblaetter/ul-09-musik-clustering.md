@@ -19,7 +19,9 @@ Nach Bearbeitung dieses Arbeitsblatts kannst du:
 
 ## Der Datensatz
 
-Der **Spotify Tracks** Datensatz enthält Audio-Features von Songs:
+Der **Spotify Tracks** Datensatz enthält Audio-Features von Songs.
+
+:material-download: **Download:** [Kaggle - Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)
 
 | Feature | Beschreibung | Wertebereich |
 |---------|-------------|--------------|
